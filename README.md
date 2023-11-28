@@ -1,2 +1,2 @@
-# api-fake-fornecedor
-API Fake com informações dos fornecedores da matéria de LP II
+# api-fake-fabricante
+API Fake com informações dos fabricante da matéria de LP II
