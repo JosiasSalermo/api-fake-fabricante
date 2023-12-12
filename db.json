@@ -1,9 +1,72 @@
 {
-"fabricante":[
-      {"id": 1, "nomeFabricante": "Butantan", "email":"contato@institutobutantan.com.br", "cnpj": "12345698/001","razaoSocial": 123456780010, "ddd": "32", "telefone": "12345678788","logradouro": "Rua das Rosas", "numero": 32,"complemento": "apartamento", "cep": "360000-001", "uf": "MG","cidade" : "Juiz de Fora", "nomeVacina": "Coronavac", "tipoVacina": "virus inativado"},
-      {"id": 2, "nomeFabricante": "Astrazenica", "email":"contato@astrazenica.com.br","cnpj": "12345698/001","razaoSocial": 123456780010, "ddd": "32", "telefone": "12345678788","logradouro": "Rua das Rosas", "numero": 32,"complemento": "apartamento", "cep": "360000-001", "uf": "MG","cidade" : "Juiz de Fora", "nomeVacina": "Astrazenica", "tipoVacina": "virus inativado"},
-      {"id": 3, "nomeFabricante": "Fio Cruz", "email":"contato@fiocruz.com.br","cnpj": "12345698/001", "razaoSocial": 123456780010,"ddd": "32", "telefone": "12345678788","logradouro": "Rua das Rosas", "numero": 32,"complemento": "apartamento", "cep": "360000-001", "uf": "MG","cidade" : "Juiz de Fora", "nomeVacina": "Bivalente", "tipoVacina": "virus inativado"},
-      {"id": 4, "nomeFabricante": "Pfazer", "email":"contato@pfazer.com.br","cnpj": "12345698/001","razaoSocial": 123456780010, "ddd": "32", "telefone": "12345678788","logradouro": "Rua das Rosas", "numero": 32,"complemento": "apartamento", "cep": "360000-001", "uf": "MG","cidade" : "Juiz de Fora", "nomeVacina": "Covid RNA", "tipoVacina": "virus inativado"}
-      
-]
+      "fabricantes": [
+            {
+                  "id": 1,
+                  "nomeFabricante": "Butantan",
+                  "email": "contato@institutobutantan.com.br",
+                  "cnpj": "12345698/001",
+                  "razaoSocial": 123456780010,
+                  "ddd": "32",
+                  "telefone": "12345678788",
+                  "logradouro": "Rua das Rosas",
+                  "numero": 32,
+                  "complemento": "apartamento",
+                  "cep": "360000-001",
+                  "uf": "MG",
+                  "cidade": "Juiz de Fora",
+                  "nomeVacina": "Coronavac",
+                  "tipoVacina": "virus inativado"
+            },
+            {
+                  "id": 2,
+                  "nomeFabricante": "Astrazenica",
+                  "email": "contato@astrazenica.com.br",
+                  "cnpj": "12345698/001",
+                  "razaoSocial": 123456780010,
+                  "ddd": "32",
+                  "telefone": "12345678788",
+                  "logradouro": "Rua das Rosas",
+                  "numero": 32,
+                  "complemento": "apartamento",
+                  "cep": "360000-001",
+                  "uf": "MG",
+                  "cidade": "Juiz de Fora",
+                  "nomeVacina": "Astrazenica",
+                  "tipoVacina": "virus inativado"
+            },
+            {
+                  "id": 3,
+                  "nomeFabricante": "Fio Cruz",
+                  "email": "contato@fiocruz.com.br",
+                  "cnpj": "12345698/001",
+                  "razaoSocial": 123456780010,
+                  "ddd": "32",
+                  "telefone": "12345678788",
+                  "logradouro": "Rua das Rosas",
+                  "numero": 32,
+                  "complemento": "apartamento",
+                  "cep": "360000-001",
+                  "uf": "MG",
+                  "cidade": "Juiz de Fora",
+                  "nomeVacina": "Bivalente",
+                  "tipoVacina": "virus inativado"
+            },
+            {
+                  "id": 4,
+                  "nomeFabricante": "Pfazer",
+                  "email": "contato@pfazer.com.br",
+                  "cnpj": "12345698/001",
+                  "razaoSocial": 123456780010,
+                  "ddd": "32",
+                  "telefone": "12345678788",
+                  "logradouro": "Rua das Rosas",
+                  "numero": 32,
+                  "complemento": "apartamento",
+                  "cep": "360000-001",
+                  "uf": "MG",
+                  "cidade": "Juiz de Fora",
+                  "nomeVacina": "Covid RNA",
+                  "tipoVacina": "virus inativado"
+            }
+      ]
 }
