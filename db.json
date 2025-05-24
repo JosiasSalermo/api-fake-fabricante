@@ -1,72 +1,138 @@
 {
-      "fabricantes": [
-            {
-                  "id": 1,
-                  "nomeFabricante": "Butantan",
-                  "email": "contato@institutobutantan.com.br",
-                  "cnpj": "12345698/001",
-                  "razaoSocial": 123456780010,
-                  "ddd": "32",
-                  "telefone": "12345678788",
-                  "logradouro": "Rua das Rosas",
-                  "numero": 32,
-                  "complemento": "apartamento",
-                  "cep": "360000-001",
-                  "uf": "MG",
-                  "cidade": "Juiz de Fora",
-                  "nomeVacina": "Coronavac",
-                  "tipoVacina": "virus inativado"
-            },
-            {
-                  "id": 2,
-                  "nomeFabricante": "Astrazenica",
-                  "email": "contato@astrazenica.com.br",
-                  "cnpj": "12345698/001",
-                  "razaoSocial": 123456780010,
-                  "ddd": "32",
-                  "telefone": "12345678788",
-                  "logradouro": "Rua das Rosas",
-                  "numero": 32,
-                  "complemento": "apartamento",
-                  "cep": "360000-001",
-                  "uf": "MG",
-                  "cidade": "Juiz de Fora",
-                  "nomeVacina": "Astrazenica",
-                  "tipoVacina": "virus inativado"
-            },
-            {
-                  "id": 3,
-                  "nomeFabricante": "Fio Cruz",
-                  "email": "contato@fiocruz.com.br",
-                  "cnpj": "12345698/001",
-                  "razaoSocial": 123456780010,
-                  "ddd": "32",
-                  "telefone": "12345678788",
-                  "logradouro": "Rua das Rosas",
-                  "numero": 32,
-                  "complemento": "apartamento",
-                  "cep": "360000-001",
-                  "uf": "MG",
-                  "cidade": "Juiz de Fora",
-                  "nomeVacina": "Bivalente",
-                  "tipoVacina": "virus inativado"
-            },
-            {
-                  "id": 4,
-                  "nomeFabricante": "Pfazer",
-                  "email": "contato@pfazer.com.br",
-                  "cnpj": "12345698/001",
-                  "razaoSocial": 123456780010,
-                  "ddd": "32",
-                  "telefone": "12345678788",
-                  "logradouro": "Rua das Rosas",
-                  "numero": 32,
-                  "complemento": "apartamento",
-                  "cep": "360000-001",
-                  "uf": "MG",
-                  "cidade": "Juiz de Fora",
-                  "nomeVacina": "Covid RNA",
-                  "tipoVacina": "virus inativado"
-            }
-      ]
+  "fabricantes": [
+    {
+      "id": 1,
+      "cnpj": "12.345.678/0001-90",
+      "email": "contato@biovida.com",
+      "nome_fantasia": "BioVida",
+      "razao_social": "BioVida Indústria de Medicamentos Ltda."
+    },
+    {
+      "id": 2,
+      "cnpj": "98.765.432/0001-10",
+      "email": "suporte@medplus.com.br",
+      "nome_fantasia": "MedPlus",
+      "razao_social": "MedPlus Produtos Farmacêuticos S.A."
+    },
+    {
+      "id": 3,
+      "cnpj": "11.222.333/0001-44",
+      "email": "sac@vitasaude.com",
+      "nome_fantasia": "VitaSaúde",
+      "razao_social": "VitaSaúde Indústria Farmacêutica LTDA"
+    },
+    {
+      "id": 4,
+      "cnpj": "22.333.444/0001-55",
+      "email": "contato@pharmabem.com",
+      "nome_fantasia": "PharmaBem",
+      "razao_social": "PharmaBem Produtos Hospitalares Ltda."
+    },
+    {
+      "id": 5,
+      "cnpj": "33.444.555/0001-66",
+      "email": "atendimento@biogenix.com",
+      "nome_fantasia": "BioGenix",
+      "razao_social": "BioGenix Tecnologia em Saúde S/A"
+    }
+  ],
+
+  "fornecedores": [
+    {
+      "id": 1,
+      "cnpj": "40.123.456/0001-01",
+      "email": "contato@alfaentregas.com",
+      "nome_fantasia": "Alfa Entregas",
+      "razao_social": "Alfa Soluções Logísticas e Entregas LTDA"
+    },
+    {
+      "id": 2,
+      "cnpj": "50.234.567/0001-02",
+      "email": "sac@greenmeddistrib.com",
+      "nome_fantasia": "GreenMed",
+      "razao_social": "GreenMed Distribuição de Produtos Naturais EIRELI"
+    },
+    {
+      "id": 3,
+      "cnpj": "60.345.678/0001-03",
+      "email": "vendas@novaunic.com.br",
+      "nome_fantasia": "NovaUnic",
+      "razao_social": "NovaUnic Importação e Distribuição LTDA"
+    },
+    {
+      "id": 4,
+      "cnpj": "70.456.789/0001-04",
+      "email": "atendimento@tropmed.com",
+      "nome_fantasia": "TropMed",
+      "razao_social": "Tropical Medical Supplies LTDA"
+    },
+    {
+      "id": 5,
+      "cnpj": "80.567.890/0001-05",
+      "email": "relacionamento@fortmed.com",
+      "nome_fantasia": "FortMed",
+      "razao_social": "FortMed Comércio e Distribuição de Equipamentos Hospitalares S/A"
+    }
+  ],
+
+  "enderecos": [
+    {
+      "id": 1,
+      "bairro": "Centro",
+      "cep": "01001-000",
+      "cidade": "São Paulo",
+      "complemento": "Apto 101",
+      "logradouro": "Rua da Consolação",
+      "numero": "123",
+      "uf": "SP"
+    },
+    {
+      "id": 2,
+      "bairro": "Boa Viagem",
+      "cep": "51020-020",
+      "cidade": "Recife",
+      "complemento": "Bloco B",
+      "logradouro": "Av. Boa Viagem",
+      "numero": "456",
+      "uf": "PE"
+    },
+    {
+      "id": 3,
+      "bairro": "Savassi",
+      "cep": "30140-071",
+      "cidade": "Belo Horizonte",
+      "complemento": "Fundos",
+      "logradouro": "Rua Pernambuco",
+      "numero": "789",
+      "uf": "MG"
+    },
+    {
+      "id": 4,
+      "bairro": "Copacabana",
+      "cep": "22060-002",
+      "cidade": "Rio de Janeiro",
+      "complemento": "Casa 2",
+      "logradouro": "Av. Atlântica",
+      "numero": "321",
+      "uf": "RJ"
+    },
+    {
+      "id": 5,
+      "bairro": "Jardim América",
+      "cep": "01427-001",
+      "cidade": "São Paulo",
+      "complemento": "Cobertura",
+      "logradouro": "Rua Honduras",
+      "numero": "654",
+      "uf": "SP"
+    }
+  ],
+
+  "telefones": [
+    { "id": 1, "ddd": "31", "numero": "98877-6655" },
+    { "id": 2, "ddd": "21", "numero": "98456-1234" },
+    { "id": 3, "ddd": "11", "numero": "99123-4567" },
+    { "id": 4, "ddd": "41", "numero": "98765-4321" },
+    { "id": 5, "ddd": "51", "numero": "99666-7788" }
+  ]
 }
